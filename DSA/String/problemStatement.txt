@@ -1,0 +1,29 @@
+create a function which will return if two strings are Anagram or not?
+
+if both strings are anagram => return true else return false
+
+String Anagram
+
+Given two strings str1 and str2, determine if str2 is an anagram of str1 and return true if it is, and false otherwise.
+
+An anagram is a word or phrase formed by rearranging the letters of another word or phrase, using all the original letters exactly once. For example, the words listen and silent are anagrams because they use the same letters with the same frequency, but in a different order.
+
+Input
+str1: A string
+str2: A string
+Example 1
+
+Input: str1 = "abcd", str2 = "dcba"
+Output: true
+Explanation: Both strings contain the same characters with the same frequency in different orders.
+
+
+Example 2
+Input: str1 = "hello", str2 = "bello"
+Output: false
+Explanation: The strings do not contain the same characters.
+
+Example 3
+Input: str1 = "listen", str2 = "silent"
+Output: true
+Explanation: Both strings contain the same characters with the same frequency in different or
