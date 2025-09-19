@@ -23,5 +23,4 @@ const person2 = {
   name: "Karn",
   age: 40,
 };
-
 // person.greetMe.call(person2);
