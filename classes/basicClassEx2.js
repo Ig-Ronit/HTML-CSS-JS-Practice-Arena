@@ -9,7 +9,7 @@ class Car {
   }
 }
 
-const c1 = new Car("Toyato", "Red");
+const c1 = new Car("Toyota", "Red");
 const c2 = new Car("Honda", "Black");
 
 console.log(c1.brand);
