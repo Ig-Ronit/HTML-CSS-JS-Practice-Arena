@@ -9,4 +9,12 @@ const obj = {
     city:city,
     isEmployed:isEmployed
 };
+
+const obj2 = {
+    name,
+    age,
+    city,
+    isEmployed
+};
 console.log(obj);
+console.log(obj2);
