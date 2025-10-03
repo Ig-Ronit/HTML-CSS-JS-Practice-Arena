@@ -35,3 +35,5 @@ new Promise((resolve) => {
 });
 
 console.log(9);
+
+// Expected output: 1, 2, 6, 9, 3, 5, 7, 4, 8
