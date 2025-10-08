@@ -1,0 +1,22 @@
+/* selector type */
+p {
+  color: dodgerblue;
+  font-size: 20px;
+}
+
+/* class selector */
+.highlight {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+#unique {
+  color: lightcoral;
+  text-decoration: underline;
+}
+
+.box p {
+  padding-left: 20px;
+  border: 2px solid lightblue;
+}

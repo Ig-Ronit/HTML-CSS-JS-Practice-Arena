@@ -1,0 +1,38 @@
+/* element selector */
+h1 {
+  color: green;
+}
+
+p {
+  color: brown;
+  text-align: center;
+}
+
+/* class selector */
+.box {
+  background-color: aquamarine;
+}
+
+/* id selector */
+#main {
+  color: rgb(24, 11, 11);
+}
+
+/* group selector */
+h1,
+h2,
+h3 {
+  background-color: antiquewhite;
+}
+
+/* descendant selector */
+div h5,
+h1,
+h2 {
+  color: purple;
+}
+
+/* child selector */
+div > span {
+  color: coral;
+}

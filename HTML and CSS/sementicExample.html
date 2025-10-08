@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Tags</title>
+    <style>
+      .header,
+      .footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .nav {
+        background-color: rgb(80, 77, 77);
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+      .nav a {
+        color: white;
+        margin: 0 10px;
+      }
+      .main {
+        display: flex;
+        margin: 20px;
+      }
+      .content {
+        flex: 3;
+        padding: 20px;
+        background-color: rgb(180, 176, 176);
+      }
+      .sidebar {
+        flex: 1;
+        background-color: rgb(128, 155, 179);
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>My Website using Semantic</h1>
+      <p>Welcome to my blog</p>
+    </header>
+
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main class="main">
+      <section class="content">
+        <article class="article">
+          <h1>Blog Post 1</h1>
+          <p>This is my first article on my website</p>
+        </article>
+
+        <article class="article">
+          <h1>Blog Post 2</h1>
+          <p>This is my Second article on my website</p>
+        </article>
+      </section>
+
+      <aside class="sidebar">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">React</a></li>
+          <li><a href="#">Node JS</a></li>
+          <li><a href="#">Mongo DB</a></li>
+        </ul>
+      </aside>
+    </main>
+    <footer class="footer">
+      <p>contact us: xyz@example.com</p>
+      <p>2025 my Website</p>
+    </footer>
+  </body>
+</html>
