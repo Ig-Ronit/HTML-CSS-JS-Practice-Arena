@@ -1,0 +1,41 @@
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 107px;
+  position: absolute;
+  opacity: 0.7;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.red {
+  background-color: red;
+  top: 120px;
+  left: 120px;
+  z-index: 1;
+}
+.green {
+  background-color: green;
+  top: 200px;
+  left: 200px;
+  z-index: 2;
+}
+
+.blue {
+  background-color: blue;
+  top: 280px;
+  left: 280px;
+  z-index: 3;
+}
+
+.box:hover {
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.5);
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  height: 600px;
+}
+.sidebar {
+  background-color: lightcoral;
+  color: white;
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex: 2; */
+}
+.content {
+  background-color: lightcyan;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
