@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <p class="h1">h1 Bootstrap heading</p>
+    <p class="h2">h2 Bootstrap heading</p>
+    <p class="h3">h3 Bootstrap heading</p>
+    <p class="h4">h4 Bootstrap heading</p>
+    <p class="h5">h5 Bootstrap heading</p>
+    <p class="h6">h6 Bootstrap heading</p>
+
+    <h1>This is only CSS</h1>
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+    <h1 class="display-5">Display 5</h1>
+    <h1 class="display-6">Display 6</h1>
+
+    <div class="container mt-3">
+      <h2>Contextual Colors</h2>
+      <p>Use the contextual classes to provide "meaning through colors":</p>
+      <p class="text-muted">This text is muted.</p>
+      <p class="text-primary" style="color: red !important">
+        This text is important.
+      </p>
+      <p class="text-success-50">This text indicates success.</p>
+      <p class="text">This text represents some information.</p>
+      <p class="text-warning">This text represents a warning.</p>
+      <p class="text-danger">This text represents danger.</p>
+      <p class="text-secondary">Secondary text.</p>
+      <p class="text-dark">This text is dark grey.</p>
+      <p class="text-body">Default body color (often black).</p>
+      <p class="text-light">This text is light grey (on white background).</p>
+      <p class="text-white">This text is white (on white background).</p>
+    </div>
+
+    <div class="container mt-3">
+      <h2>Contextual Backgrounds</h2>
+      <p>
+        Use the contextual background classes to provide "meaning through
+        colors".
+      </p>
+      <div class="bg-primary p-3"></div>
+      <div class="bg-success p-3"></div>
+      <div class="bg-info p-3"></div>
+      <div class="bg-warning p-3"></div>
+      <div class="bg-danger p-3"></div>
+      <div class="bg-secondary p-3"></div>
+      <div class="bg-dark p-3"></div>
+      <div class="bg-light p-3"></div>
+    </div>
+    <div class="container mt-3">
+      <h2>Bordered Table</h2>
+      <p>
+        The .table-bordered class adds borders on all sides of the table and the
+        cells:
+      </p>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="pagination pagination-lg">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+    <div class="container mt-3">
+      <h2>Alerts</h2>
+      <p>
+        Alerts are created with the .alert class, followed by a contextual color
+        classes:
+      </p>
+      <div class="alert alert-success">
+        <strong>Success!</strong> This alert box could indicate a successful or
+        positive action.
+      </div>
+      <div class="alert alert-info">
+        <strong>Info!</strong> This alert box could indicate a neutral
+        informative change or action.
+      </div>
+      <div class="alert alert-warning">
+        <strong>Warning!</strong> This alert box could indicate a warning that
+        might need attention.
+      </div>
+      <div class="alert alert-danger">
+        <strong>Danger!</strong> This alert box could indicate a dangerous or
+        potentially negative action.
+      </div>
+      <div class="alert alert-primary">
+        <strong>Primary!</strong> Indicates an important action.
+      </div>
+      <div class="alert alert-secondary">
+        <strong>Secondary!</strong> Indicates a slightly less important action.
+      </div>
+      <div class="alert alert-dark">
+        <strong>Dark!</strong> Dark grey alert.
+      </div>
+      <div class="alert alert-light">
+        <strong>Light!</strong> Light grey alert.
+      </div>
+    </div>
+    <div class="container mt-3">
+      <h2>Button States</h2>
+      <button type="button" class="btn btn-primary">Primary Button</button>
+      <button type="button" class="btn btn-primary active">
+        Active Primary
+      </button>
+      <button type="button" class="btn btn-primary" disabled>
+        Disabled Primary
+      </button>
+      <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+    </div>
+    <div class="container mt-3">
+      <h2>Spinners</h2>
+      <p>
+        To create a spinner/loader, use the <code>.spinner-border</code> class:
+      </p>
+
+      <div class="spinner-border"></div>
+    </div>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+            Collapsible Group Item #1
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+          <div class="card-body">Lorem ipsum..</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a
+            class="collapsed btn"
+            data-bs-toggle="collapse"
+            href="#collapseTwo"
+          >
+            Collapsible Group Item #2
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">Lorem ipsum..</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a
+            class="collapsed btn"
+            data-bs-toggle="collapse"
+            href="#collapseThree"
+          >
+            Collapsible Group Item #3
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">Lorem ipsum..</div>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://cdn.pixabay.com/photo/2025/09/12/15/10/small-copper-9830647_1280.jpg"
+            alt="Los Angeles"
+            class="d-block w-80"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.pixabay.com/photo/2025/07/20/08/07/alley-9723861_1280.jpg"
+            alt="Chicago"
+            class="d-block w-80"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.pixabay.com/photo/2025/09/04/05/38/leaves-9814751_1280.jpg"
+            alt="New York"
+            class="d-block w-80"
+            style="height: 600px"
+          />
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div> -->
+
+    <div class="container mt-3">
+      <h3>Modal Example For User Information</h3>
+      <p>Click on the button to open the modal.</p>
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#myModal"
+      >
+        Insert Information
+      </button>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Give your Infor</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="container mt-3">
+              <h2>Login information</h2>
+              <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter email"
+                    name="email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="pwd">Password:</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="pwd"
+                    placeholder="Enter password"
+                    name="pswd"
+                  />
+                </div>
+                <div class="form-check mb-3">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="remember"
+                    />
+                    Remember me
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
