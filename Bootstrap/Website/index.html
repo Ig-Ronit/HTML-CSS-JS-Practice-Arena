@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"> My Student Portal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          id="#narbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Welcome to Learning Portal of Velocity</h1>
+      </div>
+    </section>
+
+    <!-- about section -->
+
+    <section id="about" class="py-4">
+      <div class="container text-center">
+        <h2>About Us</h2>
+        <p>
+          We are building the new webpage for Velocity classes. This is only for
+          learning purpose and here we are going to learn MERN stack
+          development.
+        </p>
+      </div>
+    </section>
+
+    <!-- course section -->
+    <section id="courses" class="py-5 bg-light">
+      <div class="container text-center">
+        <h2 class="mb-5">Our Courses</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj5K08rKxUEHZsgxTHElnQc6bFEmuVzD6FUg&s"
+                alt="HTML image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">HTML Foundation</h5>
+                <p class="card-text">
+                  Learn the stracture of web pages using HTML5 with hands on
+                  examples
+                </p>
+                <a href="#" class="btn btn-primary"> Start Learning</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://colorlib.com/wp/wp-content/uploads/sites/2/creative-css3-tutorials.jpg"
+                alt="CSS image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">CSS Styling</h5>
+                <p class="card-text">
+                  Master the art of styling web pages and creating beautiful
+                  layouts
+                </p>
+                <a href="#" class="btn btn-primary"> Start Learning</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <img
+                src="https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg"
+                alt="Javascript image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Javascript</h5>
+                <p class="card-text">
+                  Understand how Javascript makes website interactive
+                </p>
+                <a href="#" class="btn btn-primary"> Start Learning</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact us</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your Name"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="massage" class="form-label">Your Massage</label>
+                <textarea
+                  class="form-control"
+                  id="massage"
+                  placeholder="Enter your massage"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+      <div class="container">
+        <p>@2025 Velocity Classes. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
